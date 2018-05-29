@@ -14,7 +14,7 @@ class AddOption extends React.Component{
     render=()=>
     <form onSubmit={this.handleAdd}> 
     <input type ="text" name = "option"/>
-    <button> Add option</button>
+    <button className="button"> Add option</button>
     </form>
 }
 export default AddOption;

@@ -1,0 +1,12 @@
+html{
+font-size: 62.5%;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:1.6rem;
+    background:lighten($color: $bg-color, $amount: 20%);
+}
+
+h1{
+    font-size: 1rem;
+}

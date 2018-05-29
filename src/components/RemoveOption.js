@@ -3,18 +3,16 @@ import ReactDOM from 'react-dom';
 
 class RemoveOption extends React.Component{
  
-    handleRemove=(e)=>{
-        e.preventDefault();  
-        const option = e.target.elements.option.value;
-        if (option)  this.props.handleAdd(option);  
-        console.log("form submitted");
+    handleRemove=()=>{
+        console.log("inside handleRemove()");
+        console.log(this.props);
+        console.log(this.props.optionText);
+        this.props.handleRemove(this.props.optionText);
+        
         return null;
     }
     render=()=>
-            <form onSubmit={this.handleRemove}> 
-            <input type ="text" name = "option"/>
-            <button> Remove option</button>
-        </form>
-}
+            <button onClick={this.handleRemove}> Remove option</button>
+        }
 
 export default RemoveOption;

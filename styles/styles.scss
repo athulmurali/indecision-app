@@ -1,7 +1,7 @@
-$brand-color: green;
-*{
-color: Black;
-}
-h1 {
-color:$brand-color;
-}
+@import './base/settings';
+@import './base/base';
+@import './components/header';
+@import './components/action';
+@import './components/container';
+@import './components/button';
+@import './components/option';

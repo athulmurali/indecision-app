@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 const Option = (props) =>
-   <div>
+   <div className="option">
         {props.optionText}
-        <button>Remove</button>
     </div> 
 export default Option;

@@ -1,0 +1,60 @@
+// button {
+//     background-color: $bg-color; 
+//     border: solid 2px red;
+//     border-radius: 5px;
+//     text-align: center;
+//     text-decoration: none;
+//     display: inline-block;
+//     font-size: 16px;
+//     color: $main-color;
+//     padding: $font-s;
+//     font-weight: bold;
+
+
+// }
+
+
+// button:disabled {
+//     opacity: 0.4;
+//     text-align: center;
+//     text-decoration: none;
+//     display: inline-block;
+//     font-size: 16px;
+// }
+
+.big-button{
+    background-color: $accessory-color; 
+    color: $main-color;
+    border: none;
+    border-bottom: .6rem solid darken($color: $accessory-color, $amount: 15);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: $font-m;
+    padding: $s-size;
+}
+
+
+.big-button:disabled{
+   opacity: 0.5;
+}
+
+.button{
+    background-color: darken($accessory-color,$amount: 15); 
+    color: $main-color;
+    border: none;
+    border-bottom: .3rem solid darken($color: $accessory-color, $amount: 25);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: $font-s;
+    padding: $s-size;
+}
+
+
+.button--link{
+    background:none;
+    color: $main-color;
+    border: none;
+    font-weight: bold;
+    font-size: $font-s;
+    
+}
