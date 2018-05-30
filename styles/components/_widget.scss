@@ -1,0 +1,30 @@
+.widget-header{
+
+    display: flex;
+    justify-content: space-between;
+    
+    background: lighten($color: $bg-color, $amount: 25);
+    color: $main-color;
+    
+
+    margin: 0 auto;
+    border-bottom: 3px solid lighten($color: $bg-color, $amount: 14);
+
+}
+
+.widget-options{
+
+    padding: $s-size;
+}
+
+.widget-action{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    color: $main-color;
+    margin: 0 auto;
+    padding: $font-s;  
+
+}

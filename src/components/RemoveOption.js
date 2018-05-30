@@ -12,7 +12,7 @@ class RemoveOption extends React.Component{
         return null;
     }
     render=()=>
-            <button onClick={this.handleRemove}> Remove option</button>
+            <button className ="button--link" onClick={this.handleRemove}>X</button>
         }
 
 export default RemoveOption;
